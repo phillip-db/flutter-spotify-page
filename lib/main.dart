@@ -151,7 +151,7 @@ class MyApp extends StatelessWidget {
         body: ListView(
           children: [
             Container(
-                color: Colors.black54,
+                color: Colors.black,
                 child: Column(
                   children: [
                     Container(
@@ -159,8 +159,8 @@ class MyApp extends StatelessWidget {
                         gradient: LinearGradient(
                           begin: Alignment.bottomCenter,
                           end: Alignment.topCenter,
-                          colors: [Colors.black12, Colors.yellow],
-                          stops: [0.08, 1.0],
+                          colors: [Colors.black, Colors.yellow[400]],
+                          stops: [0.1, 1.0],
                         ),
                       ),
                       child: Column(
@@ -255,7 +255,7 @@ class MyApp extends StatelessWidget {
                           _songEntry('Blinding Lights', 'The Weeknd'),
                           _songEntry('Ignite', 'Zedd'),
                           _songEntry('Midsummer Madness',
-                              '88 Rising, Jojo, Rich Brian & AUGUST 08'),
+                              '88 Rising, Joji, Rich Brian & AUGUST 08'),
                         ],
                       ),
                     ),
